@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=libhybris-flash
+Icon=/usr/share/icons/hicolor/90x90/apps/libhybris-flash.png
+Exec=libhybris-flash
+

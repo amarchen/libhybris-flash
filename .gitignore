@@ -1,0 +1,17 @@
+# Qt build files and whatever unused project files
+Makefile
+debugfiles.list
+debugsources.list
+debuglinks.list
+documentation.list
+*.o
+
+RPMS/*
+*.user
+
+# .moc files
+/moc/*
+
+# Object files and final binaries
+/obj/*
+/libhybris-flash
