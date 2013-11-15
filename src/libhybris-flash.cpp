@@ -28,9 +28,9 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifdef QT_QML_DEBUG
-#include <QtQuick>
-#endif
+#include <QQuickView>
+#include <QQmlContext>
+#include <QGuiApplication>
 
 #include <sailfishapp.h>
 #include "cameratester.h"
