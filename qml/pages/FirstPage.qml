@@ -37,32 +37,38 @@ Page {
             Button {
                 text: "Connect to Camera"
                 onClicked: {
-
+                    cameraTester.connectToCamera()
                 }
             }
             Button {
                 text: "Flash to Torch!"
                 onClicked: {
-
+                    cameraTester.turnFlashToTorch()
                 }
             }
             Button {
                 text: "Flash to On!"
                 onClicked: {
-
+                    cameraTester.turnFlashToOn()
                 }
             }
 
             Button {
                 text: "Start cam preview"
                 onClicked: {
-
+                    cameraTester.startPreview()
+                }
+            }
+            Button {
+                text: "Stop cam preview"
+                onClicked: {
+                    cameraTester.stopPreview()
                 }
             }
             Button {
                 text: "Disconnect cam"
                 onClicked: {
-
+                    cameraTester.disconnectCamera()
                 }
             }
 
@@ -75,8 +81,6 @@ Page {
     }
 
     Component.onCompleted: {
-        cameraTester.connectToCamera()
-        log("tried to connect")
     }
 
     function log(msg) {
