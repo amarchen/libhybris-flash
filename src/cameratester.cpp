@@ -2,13 +2,20 @@
 
 //#include <hybris/camera/camera_compatibility_layer_capabilities.h >  // for constants
 
+//// inspired by https://github.com/libhybris/libhybris/blob/master/compat/camera/direct_camera_test.cpp
+
 void CameraTester::connectToCamera()
 {
     emit logHappened("connecting");
 //    memset(&listener, 0, sizeof(m_listener));  // not sure while it's needed, but test example does this nullification
 //    m_cc = android_camera_connect_to(BACK_FACING_CAMERA_TYPE,
 //                                     &listener);
-    emit logHappened("connected");
+//    if (m_cc == NULL) {
+//        emit logHappened("Problem connecting to camera");
+//    } else {
+//        emit logHappened("connected");
+//    }
+//    m_listener.context = m_cc;
 }
 
 void CameraTester::turnFlashToTorch()
