@@ -9,6 +9,7 @@
 TARGET = libhybris-flash
 
 CONFIG += sailfishapp
+#LIBS += -lcamera
 
 SOURCES += src/libhybris-flash.cpp \
     src/cameratester.cpp
