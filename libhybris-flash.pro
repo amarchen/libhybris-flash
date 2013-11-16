@@ -11,6 +11,10 @@ TARGET = libhybris-flash
 CONFIG += sailfishapp
 #LIBS += -lcamera
 
+# !!! Is needed for local headers only. If your platform has libhybris sources,
+# you should comment this line out and use whichever's the proper real include
+INCLUDEPATH += ext/libhybris/hybris/include
+
 SOURCES += src/libhybris-flash.cpp \
     src/cameratester.cpp
 

@@ -2,7 +2,9 @@
 #define CAMERATESTER_H
 
 #include <QObject>
-//#include <hybris/camera/camera_compatibility_layer.h >
+//!!! Uncomment < > version if you have system libhybris
+//#include <hybris/camera/camera_compatibility_layer.h>
+#include "hybris/camera/camera_compatibility_layer.h"
 
 class CameraTester : public QObject
 {
@@ -22,8 +24,8 @@ signals:
 public slots:
 
 private:
-//    CameraControlListener m_listener;
-//    CameraControl* m_cc;
+    CameraControlListener m_listener;
+    CameraControl* m_cc;
 
 };
 

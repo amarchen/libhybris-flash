@@ -1,0 +1,3 @@
+[submodule "ext/libhybris"]
+	path = ext/libhybris
+	url = https://github.com/libhybris/libhybris.git
